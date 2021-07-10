@@ -1,0 +1,59 @@
+
+body {
+	font-family: 'Newsreader', serif;
+	color: #85043f;
+}
+
+header {
+	width: auto;
+	background: url('../img/pexels-zaksheuskaya-1561020.jpg');
+	background-size: cover;
+}
+
+h1, h2 {
+	text-align: center;
+	text-shadow: 2px 1px 5px white;
+	padding: 185px 0 185px 0;
+	border: solid 100px rgba(255, 255, 255, .5);
+	-webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* Firefox 4+, Opera, Chrome */
+}
+
+#job-title {
+	color: #227e6e;
+}
+
+a {
+	text-decoration: none;
+	color: #85043f;
+}
+
+a:hover {
+	color: #a5e1d6;
+}
+
+#name {
+	font-size: 1.75em;
+}
+
+#socials {
+	float: right;
+	font-size: 1.1em;
+}
+
+#pubs {
+	float: right;
+	padding-top: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+footer {
+	clear: both;
+	font-family: 'Newsreader', serif;
+	font-size: 0.7em;
+	color: black;
+}
